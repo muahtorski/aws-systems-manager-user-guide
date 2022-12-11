@@ -16,7 +16,7 @@ Session Manager offers these benefits:
   Using the AWS Systems Manager console or Amazon EC2 console, you can start a session with a single click\. Using the AWS CLI, you can also start a session that runs a single command or a sequence of commands\. Because permissions to managed nodes are provided through IAM policies instead of SSH keys or other mechanisms, the connection time is greatly reduced\.
 + **Connect to both Amazon EC2 instances and managed nodes in hybrid environments and the cloud**
 
-  You can connect to both Amazon Elastic Compute Cloud \(Amazon EC2\) instances and non\-EC2 nodes in your hybrid environment, including on\-premises servers, supported edge devices, and virtual machines \(VMs\) provide by other cloud providers\. 
+  You can connect to both Amazon Elastic Compute Cloud \(Amazon EC2\) instances and non\-EC2 nodes in your hybrid environment, including on\-premises servers, supported edge devices, and virtual machines \(VMs\) provided by other cloud providers\. 
 
   To connect to non\-EC2 nodes using Session Manager, you must first activate the advanced\-instances tier\. **There is a charge to use the advanced\-instances tier\.** However, there is no additional charge to connect to EC2 instances using Session Manager\. For information, see [Configuring instance tiers](systems-manager-managed-instances-tiers.md)\.
 +  **Port forwarding** 
